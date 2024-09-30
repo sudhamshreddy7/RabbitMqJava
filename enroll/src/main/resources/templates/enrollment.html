@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Event Enrollment</title>
+</head>
+<body>
+<h2>Enroll in Event</h2>
+<form th:action="@{/enroll}" th:object="${event}" method="post">
+    <label>Name:</label>
+    <input type="text" th:field="*{name}" required/><br/>
+    <label>Email:</label>
+    <input type="email" th:field="*{email}" required/><br/>
+    <button type="submit">Enroll</button>
+</form>
+
+<p th:text="${message}"></p>
+</body>
+</html>
