@@ -4,5 +4,5 @@
 
 # Steps for installing RabbitMq on a VM
 1. Create a VM on cloud. 
-*** Note: *** Make sure to change the Inbound rule of the VM to allow traffic to RabbitMQ server.(Protocal: TCP portNumber : 15672)
+__ Note: __ Make sure to change the Inbound rule of the VM to allow traffic to RabbitMQ server.(Protocal: TCP portNumber : 15672)
 
