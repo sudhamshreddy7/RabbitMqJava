@@ -33,4 +33,4 @@ build/
 
 
 
-application.properties
+enroll/src/main/resources/application.properties
