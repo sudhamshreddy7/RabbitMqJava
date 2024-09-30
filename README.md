@@ -34,9 +34,18 @@ This project provides a step-by-step guide for installing RabbitMQ on a virtual 
 
 
 # Uploading the Producer code(enroll) into the VM(debian)
-1. Update apt and installing git
-- `sudo apt update -y | sudo apt install git -y`
+1. Update apt, installing git and installing maven
+- `sudo apt update -y | sudo apt install git -y | sudo apt install maven -y`
 2. installing java 17
 - `sudo apt install openjdk-17-jdk -y | sudo apt install openjdk-17-jre -y`
+3. Cloning the repo and the Running enroll website
+- `git clone https://github.com/sudhamshreddy7/RabbitMqJava.git`
+- `cd RabbitMqJava | cd enroll`
+- `mvn clean install`
+- `mvn spring-boot:run`
+4. To test the application: 
+- Open a browzer and 1.1.1.1:8080(ip of your vm), fill the form and submit
+- Log into rabbitmq server using 2.2.2.2:15672(ip of rabbitmq vm) you can see the data is getting populated
+**Note:** Before running the application make sure you update the application.properties file
 
 
