@@ -30,3 +30,13 @@ This project provides a step-by-step guide for installing RabbitMQ on a virtual 
 
 **Note:** to test the connection with RabbitMQ try to log in to the RabbitMQ Management UI with the new credentials
 - `http://<VM_PUBLIC_IP>:15672`
+
+
+
+# Uploading the Producer code(enroll) into the VM(debian)
+1. Update apt and installing git
+- `sudo apt update -y | sudo apt install git -y`
+2. installing java 17
+- `sudo apt install openjdk-17-jdk -y | sudo apt install openjdk-17-jre -y`
+
+
