@@ -47,5 +47,3 @@ This project provides a step-by-step guide for installing RabbitMQ on a virtual 
 - Open a browzer and 1.1.1.1:8080(ip of your vm), fill the form and submit
 - Log into rabbitmq server using 2.2.2.2:15672(ip of rabbitmq vm) you can see the data is getting populated
 **Note:** Before running the application make sure you update the application.properties file
-
-

@@ -12,6 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -30,8 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-
-
-application.properties
-enroll/src/main/resources/application.properties

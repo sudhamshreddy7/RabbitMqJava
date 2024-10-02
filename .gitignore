@@ -32,5 +32,5 @@ build/
 .vscode/
 
 
-
-enroll/src/main/resources/application.properties
+*.properties
+/.metadata/
